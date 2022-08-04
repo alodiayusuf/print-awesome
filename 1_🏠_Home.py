@@ -54,5 +54,5 @@ else:
 st.write(px.bar(data_filter, y='Jumlah_Kasus',x='Bulan'))
 
 st.markdown("""
-            [Pelajari Phising lebih lanjut](http://localhost:8501/%EF%B8%8F_Phising_101)
+            [Pelajari Phising lebih lanjut](https://alodiayusuf-print-awesome-1--home-7vhxp1.streamlitapp.com/%EF%B8%8F_Phising_101)
             """)
