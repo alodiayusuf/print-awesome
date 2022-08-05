@@ -25,7 +25,7 @@ with st.container():
 		st.write("##")
 		st.markdown(
 			"""
-			<p align="justify">Hello, nama saya Siti Angrippina Alodia Yusuf. Kalian bisa memanggil saya Alodia atau Al.
+			<p align="justify">Hello, nama saya Siti Agrippina Alodia Yusuf. Kalian bisa memanggil saya Alodia atau Al.
 			Disini saya bertugas untuk membuat website menggunakan Streamlit. Untuk bisa berkenalan lebih jauh
 			bisa berkunjung ke sosmed saya di bawah ini:</p align="justify"> 
 			<p>ig: alodiayusuf</p> 
