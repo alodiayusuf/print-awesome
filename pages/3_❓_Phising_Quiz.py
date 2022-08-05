@@ -1,7 +1,20 @@
+import requests
 import streamlit as st 
+from streamlit_lottie import st_lottie
 from PIL import Image
 
 st.set_page_config(page_title="Phising Quiz", page_icon="❓")
+
+def load_lottieurl(url):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
+#----Link Animation----
+lottie_coding = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_z35UZP.json")
+
+st_lottie(lottie_coding, height=200, key="quiz")
 
 st.header('Seberapa Beresiko Kamu Terkena Phising?')
 st.subheader('Ikuti tes berikut ini dan cari tahu resiko kamu!')
@@ -19,7 +32,6 @@ sepuluh = st.radio('Apakah kamu melakukan instalasi saat ada update terbaru yang
 
 nilai1 = 0
 if st.button('Lihat Hasil'):
-    
     if satu == 'Iya':
         nilai1 = nilai1
     else:
@@ -68,8 +80,7 @@ if st.button('Lihat Hasil'):
     if sepuluh =='Iya':
         nilai10 = nilai9+1
     else:
-        nilai10 = nilai9-1
-        
+        nilai10 = nilai9-1     
     
     nilaiakhir = nilai10
     if nilaiakhir >0 and nilaiakhir < 3:
