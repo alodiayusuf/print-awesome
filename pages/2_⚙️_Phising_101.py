@@ -1,12 +1,25 @@
+import requests
 import streamlit as st 
+from streamlit_lottie import st_lottie
 import streamlit.components.v1 as components
 
 st.set_page_config(page_title="Phising 101", page_icon="⚙️")
 
-st.markdown("# Phising 101")
+def load_lottieurl(url):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
+#----Link Animation----
+lottie_coding = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_zdtukd5q.json")
+
+st_lottie(lottie_coding, height=300, key="cyber")
+
+st.markdown("# Phishing 101")
 
 st.markdown("""
-            ### Apa itu Phising?
+            ### Apa itu Phishing?
             <p align="justify">
             Phishing adalah salah satu kejahatan dunia maya dimana korban dihubungi melalui email, pesan teks, ataupun telefon oleh seseorang yang menyamar 
             sebagai lembaga yang sah untuk memikat korban sehingga memberikan data sensitifnya seperti informasi pribadi, 
