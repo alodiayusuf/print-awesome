@@ -14,6 +14,9 @@ with st.container():
 		st.write("https://www.phishing.org/what-is-phishing")
 		st.write("https://nextren.grid.id/read/013320306/ngeri-cuma-klik-link-dari-pesan-wa-rekening-nasabah-bri-terkuras-hingga-rp-11-miliar")
 		st.write("https://internasional.kontan.co.id/news/terkait-penipuan-phising-ocbc-ganti-rugi-kerugian-nasabah-secara-penuh")
+		st.write("https://databoks.katadata.co.id/datapublish/2022/06/08/idadx-ada-3180-laporan-phishing-pada-kuartal-i-2022")
+		st.write("https://www.inilah.com/pandi-catat-5-579-insiden-serangan-phising-terjadi-di-kuartal-kedua-2022")
+		
 
 def load_lottieurl(url):
     r = requests.get(url)
