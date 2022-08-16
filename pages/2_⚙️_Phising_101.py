@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="Phising 101", page_icon="⚙️")
+st.set_page_config(page_title="Phishing 101", page_icon="⚙️")
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -34,14 +34,14 @@ st.markdown("""
             Selama tahun 2020, Phishing adalah serangan yang paling sering dilakukan oleh para penjahat dunia maya, devisi Internet Crime Complaint Center
             milik FBI melaporkan dua kali lipat lebih banyak insiden Phishing dari pada tipe kejahatan dunia maya lainnya. </p align="justify">
             
-            ### Tipe-tipe Phising
+            ### Tipe-tipe Phishing
             Ada beberapa tipe serangan Phishing antara lain: 
             
-            * Email Phising
+            * Email Phishing
             
               <p align="justify"> Phishing disampaikan dengan spam email, dan tidak dipersonalisasi atau ditargetkan kepada individu atau perusahaan secara spesifik – 
               istilah ini disebut dengan Phishing “masal”. Konten Phishing masal sangat bervariasi tergantung dari tujuan penyerang – 
-              umumnya menirukan pelayanan bank atau keuangan, penyedia email dan produktivitas cloud, dan juga pelayanan streaming. Email Phising dibagi
+              umumnya menirukan pelayanan bank atau keuangan, penyedia email dan produktivitas cloud, dan juga pelayanan streaming. Email Phishing dibagi
               menjadi tiga macam, yaitu:</p align="justify">
               
             """, unsafe_allow_html=True)
@@ -55,7 +55,7 @@ components.html(
                 <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
                     <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    Spear Phising
+                    Spear Phishing
                     </button>
                 </h5>
                 </div>
@@ -64,7 +64,7 @@ components.html(
                     <p align="justify">Spear Phishing adalah sebuah serangan yang melibatkan penyerang secara langsung menargetkan organisasi tertentu atau seseorang dengan
                     mencoba mencuri login credential mereka. 
                     <p align="justify">Pada dasarnya serangan ini menciptakan dan mengirim sebuah email kepada seseorang untuk membuat 
-                    orang itu berpikir bahwa email itu legal. Target eksekutif dari tipe Spear Phising adalah mereka yang bekerja di departemen 
+                    orang itu berpikir bahwa email itu legal. Target eksekutif dari tipe Spear Phishing adalah mereka yang bekerja di departemen 
                     keuangan yang mempunyai akses pelayanan dan keuangan perusahaan.
                 </div>
                 </div>
@@ -79,7 +79,7 @@ components.html(
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-body">
-                    <p align="justify">Whaling mengarahkan untuk melakukan penyerangan Phising yang secara khusus diarahkan kepada senior executive atau para petinggi perusahaan. 
+                    <p align="justify">Whaling mengarahkan untuk melakukan penyerangan Phishing yang secara khusus diarahkan kepada senior executive atau para petinggi perusahaan. 
                     CEO Fraud merupakan kebalikan dari Whaling. Penyerang biasanya membuat email palsu yang katanya berasal dari CEO atau 
                     petinggi perusahaan dengan tujuan membuat karyawan disuatu organisasi melakukan sebuah tindakan tertentu, biasanya mengarahkan untuk 
                     mentransfer uang ke rekening luar negeri.
@@ -91,7 +91,7 @@ components.html(
                 <div class="card-header" id="headingThree">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Clone Phising
+                    Clone Phishing
                     </button>
                 </h5>
                 </div>
@@ -109,7 +109,7 @@ components.html(
 )
 st.markdown("""
                    
-            * Voice Phising
+            * Voice Phishing
             
               <p align="justify">
               Voice Phishing atau Vishing adalah salah satu tipe yang beraksi dengan menggunakan telefon (biasanya dari alat IP telefon) 
@@ -119,7 +119,7 @@ st.markdown("""
               Korban kemudian diarahkan untuk memanggil nomor telepon yang telah dikendalikan oleh penyerang, yang kemudian meminta korban 
               memasukkan informasi sensitive untuk “menyelesaikan” penipuan yang tengah terjadi.
             
-            * SMS Phising
+            * SMS Phishing
 
               <p align="justify">
               SMS Phishing atau smishing secara konseptual mirip dengan email Phishing, dimana perbedaannya penyerang menggunakan pesan teks ponsel 
@@ -133,20 +133,20 @@ st.markdown("""
               Dengan Website Spoofing, seorang peretas membuat website palsu yang telihat seperti yang asli. Kemudian ketika target atau pengguna menggunakan 
               website tersebut dan masuk kedalamnya, informasi dari terget atau pengguna akan didapatkan dan dikumpulkan oleh peretas.
             
-            * Search Engine Phising
+            * Search Engine Phishing
               
               <p align="justify">
               Sebuah Search Engine Phishing menyerang dengan melibatkan seorang peretas untuk membuat produk palsu yang terlihat atraktif. Ketika informasi 
               muncul tiba-tiba di mesin pencarian, target akan diminta untuk memasukkan informs sensitive sebelum melakukan pembayaran yang kemudian diarahkan kepada peretas. 
             
-            ### Kerugian Akibat Phising
+            ### Kerugian Akibat Phishing
             <p align="justify">
             Kerugian paling utama akibat Phishing adalah kerugian finansial. Banyak perusahaan ataupun perorangan yang kehilangan sejumlah uang mereka akibat kejahatan ini. 
             Kebanyakan tujuan dari tindak kejahatan ini adalah mengambil uang target. Dan kerugian selanjutnya adalah tersebarnya informasi pribadi korban 
             yang dapat disalah gunakan dan dijual ke darkweb.
             
-            ### Cara-Cara untuk menghadapi dan menghindari kejahatan Phising
-            Ada 10 cara yang dapat digunakan untuk menghadapi dan menghindar dari kejahatan Phising, antara lain:            
+            ### Cara-Cara untuk menghadapi dan menghindari kejahatan Phishing
+            Ada 10 cara yang dapat digunakan untuk menghadapi dan menghindar dari kejahatan Phishing, antara lain:            
             """, unsafe_allow_html=True)
 components.html(
             """
