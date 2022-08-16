@@ -12,7 +12,7 @@ st.set_page_config(
 #with st.sidebar:
    # selected = option_menu(
        # menu_title=None,
-       # options=['Home','Phising Quiz','About Us']
+       # options=['Home','Phishing Quiz','About Us']
    # )
 
 
@@ -27,7 +27,7 @@ st.markdown("""
             ### Metode Penipuan
             Beberapa metode umum yang kerap kali digunakan untuk melancarkan aksi penipuan di dunia maya antara lain phising, pharming, sniffing, money mule, dan social engineering.
             
-            ### Phising
+            ### Phishing
             Merupakan metode penipuan paling populer, di mana pelaku mengelabui korban dengan mengirimpakn link ke email atau pesan singkat yang mengarahkan ke situs palsu.
             
             ### Kasus
@@ -36,11 +36,11 @@ st.markdown("""
             Setelah korban selesai mengakses dan mengisi link yang diberikan, pelaku beraksi dan menguras uang milik korban yang ada di rekening. 
             [Baca lebih lanjut](https://nextren.grid.id/read/013320306/ngeri-cuma-klik-link-dari-pesan-wa-rekening-nasabah-bri-terkuras-hingga-rp-11-miliar) 
             
-            ### Kasus Phising 2Q 2022 di Indonesia
+            ### Kasus Phishing 2Q 2022 di Indonesia
             """)
 
 data = pd.read_csv('data-phising.csv')
-st.sidebar.title('Data Kasus Phising 2Q 2022 di Indonesia')
+st.sidebar.title('Data Kasus Phishing 2Q 2022 di Indonesia')
 #st.write(data)
 bulan = ["All","Januari","Februari","Maret","April","Mei","Juni"]
 
@@ -54,5 +54,5 @@ else:
 st.write(px.bar(data_filter, y='Jumlah_Kasus',x='Bulan'))
 
 st.markdown("""
-            [Pelajari Phising lebih lanjut](https://alodiayusuf-print-awesome-1--home-7vhxp1.streamlitapp.com/%EF%B8%8F_Phising_101)
+            [Pelajari Phishing lebih lanjut](https://alodiayusuf-print-awesome-1--home-7vhxp1.streamlitapp.com/%EF%B8%8F_Phishing_101)
             """)
