@@ -2,7 +2,7 @@ import requests
 import streamlit as st 
 from streamlit_lottie import st_lottie
 
-st.set_page_config(page_title="About Us", page_icon="📚")
+st.set_page_config(page_title="Referensi", page_icon="📚")
 st.header("Referensi")
 
 with st.container():
