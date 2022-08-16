@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from PIL import Image
 
-st.set_page_config(page_title="Phising Quiz", page_icon="❓")
+st.set_page_config(page_title="Phishing Quiz", page_icon="❓")
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -16,7 +16,7 @@ lottie_coding = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_z3
 
 st_lottie(lottie_coding, height=200, key="quiz")
 
-st.header('Seberapa Beresiko Kamu Terkena Phising?')
+st.header('Seberapa Beresiko Kamu Terkena Phishing?')
 st.subheader('Ikuti tes berikut ini dan cari tahu resiko kamu!')
 
 satu = st.radio('Apakah kamu menggunakan password yang sama pada akun-akun yang berbeda?',('Iya','Tidak'))
