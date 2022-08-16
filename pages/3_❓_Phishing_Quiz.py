@@ -43,44 +43,44 @@ if st.button('Lihat Hasil'):
         nilai2 = nilai1
 
     if tiga == 'Iya':
-        nilai3 = nilai2-1
+        nilai3 = nilai2
     else:
         nilai3 = nilai2+1
     
     if empat == 'Iya':
-        nilai4 = nilai3-1
+        nilai4 = nilai3
     else:
         nilai4 = nilai3+1
     
     if lima =='Iya':
-        nilai5= nilai4-1
+        nilai5= nilai4
     else:
         nilai5=nilai4+1
     
     if enam=='Iya':
-        nilai6= nilai5-1
+        nilai6= nilai5
     else:
         nilai6=nilai5+1
     
     if tujuh == 'Iya':
-        nilai7 = nilai6-1
+        nilai7 = nilai6
     else:
         nilai7 = nilai6+1
     
     if delapan == 'Iya':
-        nilai8 = nilai7-1
+        nilai8 = nilai7
     else:
         nilai8 = nilai7+1
     
     if sembilan == 'Iya':
-        nilai9 =  nilai8-1
+        nilai9 =  nilai8
     else:
         nilai9=nilai8+1
     
     if sepuluh =='Iya':
         nilai10 = nilai9+1
     else:
-        nilai10 = nilai9-1     
+        nilai10 = nilai9     
     
     nilaiakhir = nilai10
     if nilaiakhir >0 and nilaiakhir < 3:
